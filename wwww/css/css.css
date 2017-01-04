@@ -109,6 +109,24 @@ p{
 #jian{
 	position: relative;
 }
+#jian ul:nth-child(1){
+	left: 478px;
+}
+#jian ul:nth-child(2){
+	left: 550px;
+}
+#jian ul:nth-child(3){
+	left: 628px;
+}
+#jian ul:nth-child(4){
+	left: 692px;
+}
+#jian ul:nth-child(5){
+	left: 690px;
+}
+#jian ul:nth-child(6){
+	left: 690px;
+}
 .made{
 	position: absolute;
 	width: 200px;
@@ -144,9 +162,9 @@ p{
 	
 }
 .zzz{
-	background-color: #333;
+	color: #333;
 }
-#jian .made:hover li {
+#jian li:hover  {
 	background-color: #4d70b1;
 }
 #photo {
@@ -221,6 +239,9 @@ p{
 .btn:hover{
 	cursor: pointer;
 	opacity: 1;
+}
+.photo_3{
+	display: none;
 }
 #photo h1{
 	text-align: center;
@@ -345,6 +366,9 @@ p{
 	position: absolute;
 	left: 30px;
 	bottom: 160px;
+}
+.cc_3{
+	display: none;
 }
 .cc_2 ul li {
 	float: left;
@@ -487,6 +511,7 @@ p{
 	
 }
 .next_t_3{
+	cursor: pointer;
 	top: 0px;
     color: white;
     line-height: 20px;
@@ -499,6 +524,7 @@ p{
     background-color: #ccc;
 }
 .prev_t_3{
+	cursor: pointer;
 	top: 0px;
     color: white;
     line-height: 20px;
@@ -603,9 +629,15 @@ p{
     /* text-align: center; */
     line-height: 24px;
     margin-top: 8px;
+    position: relative;
+    margin-left: 22px;
     color: #ebebeb;
     font-family: "微软雅黑";
     font-size: 14px;
+}
+.footer_1_1 ul li p img{
+	position: absolute;
+	left: -24px;
 }
 .footer_1_1 ul li:nth-child(4) p{
 	color:  #4d70b1;
@@ -635,12 +667,33 @@ p{
 	float: left;
 	margin-right: 20px;
 }
+.ssss{
+	display: none;
+}
 @media screen and (max-width: 1024px){
 	#wrap-box{
 		padding: 0;
 		width: 100%;
 		overflow-x: hidden;
 	}
+	#jian ul:nth-child(1){
+	left: 550px;
+}
+#jian ul:nth-child(2){
+	left: 628px;
+}
+#jian ul:nth-child(3){
+	left: 698px;
+}
+#jian ul:nth-child(4){
+	left: 769px;
+}
+#jian ul:nth-child(5){
+	left: 767px;
+}
+#jian ul:nth-child(6){
+	left: 767px;
+}
 	.ssss {
 		display: none;
 	}
@@ -648,7 +701,9 @@ p{
    
     left: 96.8%;
     }
-   
+   .next_t_1{
+   	left: 387px;
+   }
   	.content_4_2 ul li {
    
     margin-right: 0.332%;
@@ -668,6 +723,24 @@ p{
     	width: 30%;
     	margin-bottom: 20px;
     }
+    #jian ul:nth-child(1){
+	left: 295px;
+	}
+	#jian ul:nth-child(2){
+		left: 370px;
+	}
+	#jian ul:nth-child(3){
+		left: 445px;
+	}
+	#jian ul:nth-child(4){
+		left: 520px;
+	}
+	#jian ul:nth-child(5){
+		left: 520px;
+	}
+	#jian ul:nth-child(6){
+		left: 520px;
+	}
     .next_t_1{
     	left: 310px;
     }
@@ -712,15 +785,27 @@ p{
 	.header a{
 		margin-left: 137px;
 	}
-	.ssss{
-		display: block;
-		position: relative;
-	}
-	.ssss input{
-		display: block;
-	}
 	.navnav ul {
 		display: none;
+		    position: absolute;
+		    top: 140px;
+		    left: 69px;
+		    background: #fff;
+		    z-index: 100;
+		    height: 192px;
+		    width: 255px;
+		}
+	.navnav ul li{
+		width: 95%;
+    	float: left;
+    	height: 30px;
+    	line-height: 30px;
+    	margin-right: 0px;
+    	margin-left: 0px;
+    	padding-left: 5%;
+	}
+	.navnav ul li:hover{
+		background: #ddd;
 	}
 	#photo{
 		margin-top: 78px;
@@ -728,12 +813,16 @@ p{
 		overflow: ;
 		
 	}
-	.ssss input{
-	    position: absolute;
-    top: 114px;
-    left: 69px;
-    width: 255px;
-    height: 28px;
+	.ssss {
+		display: block;
+		position: absolute;
+	    top: 114px;
+	    left: 69px;
+	    width: 250px;
+	    height: 28px;
+	    border:1px solid #333;
+	    line-height: 28px;
+	    padding-left: 5px;
 	}
 	.photo_1_1 {
     	width: 900px;

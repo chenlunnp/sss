@@ -108,3 +108,34 @@ $(".made1 li").mouseenter(function(){
 $('#jian').mouseleave(function(){
 	$("#jian").hide()
 });
+
+
+$('.ssss').click(function(){
+	$(".made1").show();
+})
+
+var mmtext = " ";
+var madeList = $('.made1 li');
+madeList.each(function(index){
+	$(this).click(function(){
+		mmtext = $(this).text();
+		$('.ssss').html(mmtext);
+		$(".made1").hide();
+		
+	})
+})
+
+$(document).ready(function(){
+  $(".photo_1_1").click(function(){
+   $(".photo_3").fadeIn();
+   
+   
+  });
+});
+$(document).ready(function(){
+  $(".cc_1").click(function(){
+   $(".cc_3").fadeIn();
+   
+   
+  });
+});
