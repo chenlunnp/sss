@@ -126,16 +126,31 @@ madeList.each(function(index){
 })
 
 $(document).ready(function(){
-  $(".photo_1_1").click(function(){
+  $(".photo_1_1").mouseenter(function(){
    $(".photo_3").fadeIn();
    
    
   });
 });
+
 $(document).ready(function(){
-  $(".cc_1").click(function(){
+  $(".photo_1_1").mouseleave(function(){
+    $(".photo_3").fadeOut();
+    
+  });
+});
+
+$(document).ready(function(){
+  $(".cc_1").mouseenter(function(){
    $(".cc_3").fadeIn();
    
    
+  });
+});
+
+$(document).ready(function(){
+  $(".cc_1").mouseleave(function(){
+    $(".cc_3").fadeOut();
+    
   });
 });
