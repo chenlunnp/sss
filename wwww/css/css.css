@@ -809,7 +809,7 @@ p{
 		background: #ddd;
 	}
 	#photo{
-		    margin-top: 100px;
+		    margin-top: 50px;
 		width: 100%;
 		overflow: hidden;
 		
@@ -1021,14 +1021,10 @@ p{
    		width: 43%;
     margin: 0px -4.5px 10px 13px;
    	}
-   	.footer_2{
-   		height: 142px;
-   	}
+
 }
 @media screen and (max-width: 375px){
-	.photo_1_1 {
-	    height: 161px;
-}
+
 #photo h1{
 	font-size: 23px;
 }
@@ -1046,13 +1042,13 @@ p{
 		bottom: 240px;
 	}
 	.cc_2{
-		bottom: 190px;
+		bottom: 216px;
 	}
 	#content_2{
 		height: 1170px;
 	}
 	.liao2{
-		margin-top: 59px;
+		    margin: 25px 0px 56px 99px;
 	}
 	.footer1{
 		margin-left: 25px;
