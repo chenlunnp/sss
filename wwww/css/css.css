@@ -870,7 +870,7 @@ p{
     left: 70px;
 	}
 	#photo h1{
-		padding: 40px 0px;
+		padding: 32px 0px;
 	}
 	#photo h1 .none{
 		display: none;
@@ -878,7 +878,7 @@ p{
 	#photo h1 .next{
 		display: block;
 		width: 100%;
-		line-height: 40px;
+		line-height:58px;
 	}
 	#content{
 		height: 830px;
