@@ -769,7 +769,7 @@ p{
     width: 95%;    
 	}
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 462px){
 	#jian{
 		display: none;
 	}
