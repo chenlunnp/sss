@@ -870,7 +870,9 @@ p{
     left: 70px;
 	}
 	#photo h1{
-		padding: 32px 0px;
+		    padding: 15px 0px;
+    padding-top: 23px;
+    line-height: 33px;
 	}
 	#photo h1 .none{
 		display: none;
@@ -881,7 +883,7 @@ p{
 		line-height:58px;
 	}
 	#content{
-		height: 830px;
+		height: 819px;
 	}
 	.zxc div p {
 		margin-left: -27%;
